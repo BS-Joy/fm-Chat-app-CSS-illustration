@@ -326,6 +326,14 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
+    body {
+        overflow: hidden;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
     .gray {
         height: 120vh;
     }
@@ -333,6 +341,6 @@ body {
         height: 100%;
         margin: 50px 10px;
         padding: 0 20px;
-        gap: 50px;
+        gap: 80px;
     }
 }
